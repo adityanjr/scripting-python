@@ -10,32 +10,6 @@ Warnings
 
 .. warning:: Pillow >= 2.1.0 no longer supports "import _imaging". Please use "from PIL.Image import core as _imaging" instead.
 
-Notes
------
-
-.. note:: Pillow is supported on the following Python versions
-
-
-+-------------------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+
-|**Python**         |**3.8**|**3.7**|**3.6**|**3.5**|**3.4**|**3.3**|**3.2**|**2.7**|**2.6**|**2.5**|**2.4**|
-+-------------------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+
-|Pillow >= 7        |  Yes  |  Yes  |  Yes  |  Yes  |       |       |       |       |       |       |       |
-+-------------------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+
-|Pillow 6.2.1       |  Yes  |  Yes  |  Yes  |  Yes  |       |       |       |  Yes  |       |       |       |
-+-------------------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+
-|Pillow 6.0 - 6.2.0 |       |  Yes  |  Yes  |  Yes  |       |       |       |  Yes  |       |       |       |
-+-------------------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+
-|Pillow 5.2 - 5.4   |       |  Yes  |  Yes  |  Yes  |  Yes  |       |       |  Yes  |       |       |       |
-+-------------------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+
-|Pillow 5.0 - 5.1   |       |       |  Yes  |  Yes  |  Yes  |       |       |  Yes  |       |       |       |
-+-------------------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+
-|Pillow 4           |       |       |  Yes  |  Yes  |  Yes  |  Yes  |       |  Yes  |       |       |       |
-+-------------------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+
-|Pillow 2 - 3       |       |       |       |  Yes  |  Yes  |  Yes  |  Yes  |  Yes  |  Yes  |       |       |
-+-------------------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+
-|Pillow < 2         |       |       |       |       |       |       |       |  Yes  |  Yes  |  Yes  |  Yes  |
-+-------------------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+
-
 Basic Installation
 ------------------
 
@@ -48,7 +22,7 @@ Basic Installation
 Install Pillow with :command:`pip`::
 
     python -m pip install pip
-    python -m pip install Pillow
+    python -m pip install Pillow or pip3 install pillow
 
 
 Windows Installation
@@ -60,7 +34,7 @@ executable installers. These binaries have all of the optional
 libraries included except for raqm and libimagequant::
 
     python -m pip install pip
-    python -m pip install Pillow or pip3 install pillow
+    python -m pip install Pillow
 
 
 macOS Installation
@@ -91,7 +65,7 @@ PIL e.g. ``python-imaging``.
 
 Using with CMD
 ------------------
+### For Python 3 version -
 
-## For Python 3 version -
 In this project folder, open CMD and run :
-#### python3 JPGtoPNG.py stock/ anyfolder/
+```python3 JPGtoPNG.py stock/ anyfolder/```
